@@ -1,0 +1,22 @@
+{
+    "5char":{
+        "base": 6,
+        "increase": 60,
+        "start": 74
+    },
+    "4char":{
+        "base": 51,
+        "increase": 510,
+        "start": 9
+    },
+    "5weap":{
+        "base": 7,
+        "increase": 70,
+        "start": 63
+    },
+    "4weap":{
+        "base": 60,
+        "increase": 600,
+        "start": 8
+    }
+}
