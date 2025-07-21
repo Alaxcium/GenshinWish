@@ -83,7 +83,7 @@ while iteration > 0:
                     user_data["character"]["4pity"] += 1
                     user_data["character"]["5pity"] = 0
                     if (random.randint(0,1) and not user_data["character"]["5guarantee"]):
-                        if (user_data['radiance'] == 3) or (user_data['radiance'] == 2 and random.randint(1,4) < 4) or (user_data['radiance'] <= 1 and random.randint(0,1)):
+                        if (user_data['radiance'] == 3) or user_data['radiance'] == 2 and random.randint(0,1):
                             total["totalradiance"] += 1
                             user_data["character"]["5guarantee"] = False
                             user_data["radiance"] = 0
@@ -122,7 +122,7 @@ while iteration > 0:
                     user_data["weapon"]["5pity"] = 0
                     if user_data["epitomized"]:
                         total["totalepitomized"] += 1
-                        user_data["weapon"]["epitomized"] = False
+                        user_data["epitomized"] = False
                         wdone += 1
                         continue
                     if (random.randint(1,4) == 4 and not user_data["weapon"]["5guarantee"]):
@@ -160,6 +160,7 @@ while iteration > 0:
             total["totalwantedweapons"] += wdone
             total["totalstarglitter"] += starglitter_wishes
             break
+
 user_file = "user.json"
 base_file = "base.json"
 file_to_load = user_file if os.path.exists(user_file) else base_file
