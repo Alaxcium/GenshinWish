@@ -8,6 +8,8 @@ rate_up4 = ["Collei", "Diona", "Fischl"] # Characters that can be rate-up in 4-s
 # wanted_weapons: Number of weapons you want
 # wishes: Number of wishes you have
 # starglitter: Amount of starglitter you have
+# radiance: Radiance level, 0-3 
+# epitomized: Epitomised system, 
 # character: Modifying Character wish related values
 # 5pity: 5-star character pity counter
 # 5guarantee: Whether the next 5-star character is guaranteed
@@ -18,8 +20,6 @@ rate_up4 = ["Collei", "Diona", "Fischl"] # Characters that can be rate-up in 4-s
 # 5guarantee: Whether the next 5-star weapon is guaranteed
 # 4pity: 4-star weapon pity counter
 # 4guarantee: Whether the next 4-star weapon is guaranteed
-# radiance: Radiance level, 0-3 
-# epitomized: Epitomised system, 
 # standard: Standard banner characters and your constellations for them
 # 4characters: 4-star characters and your constellations for them
 # End of Modifications

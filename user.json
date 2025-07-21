@@ -4,6 +4,7 @@
     "wishes": 1000,
     "starglitter": 100,
     "radiance": 0,
+    "epitomized": false,
     "character":{
         "5pity": 0,
         "5guarantee": false,
@@ -16,7 +17,7 @@
         "4pity": 0,
         "4guarantee": false
     },
-    "epitomized": false,
+
     "standard": {
         "Jean": 6,
         "Tighnari": 1,
